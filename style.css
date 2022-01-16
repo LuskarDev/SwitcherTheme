@@ -46,7 +46,7 @@ body.dark {
 #bg .content-switcher .switcher {
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;
-    width: 50%;
+    width: clamp(55%, 100px, 50vh);
     background:  #111;
     padding: 0.5rem;
     border-radius: 50px;
