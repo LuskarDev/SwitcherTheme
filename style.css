@@ -58,6 +58,7 @@ body.dark {
     top: 300px;
     left: 618px;
     z-index: 9999;
+    cursor: pointer;
 }
 
 #bg .content-switcher #chk{
