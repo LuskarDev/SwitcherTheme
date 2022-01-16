@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+:root{
+    --dark: #292c35;
+    --light: #f1f1f1;
+    --label: #111;
+}
+
+body {
+    background: var(--light);
+
+}
+
+#bg {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body.dark {
+    background: var(--dark);
+    color: white;
+}
+
+#bg .content-switcher {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#bg .content-switcher > h2 {
+    font-size: 2rem;
+    margin-bottom: 4rem;
+}
+
+#bg .content-switcher .switcher {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    width: 50%;
+    background:  #111;
+    padding: 0.5rem;
+    border-radius: 50px;
+    position: relative;
+    cursor: pointer;
+}
+
+#bg .content-switcher input{
+    position: absolute;
+    top: 300px;
+    left: 618px;
+    z-index: 9999;
+}
+
+#bg .content-switcher #chk{
+    width: 130px;
+    height: 130px;
+    opacity: 0;
+}
+
+#bg .content-switcher #chk:checked + .switcher .circle {
+    transform: translateX(160%);
+}
+
+#bg .content-switcher .switcher img {
+    width: 50px;
+}
+
+#bg .content-switcher .switcher img:nth-child(1){
+    margin-right: 2rem;
+}
+
+#bg .content-switcher .switcher .circle {
+    border-radius: 50%;
+    background: white;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0.5rem;
+    left: 0.4rem;
+    z-index: 99;
+    transition: 1s ease;
+}
+
+
+
+
