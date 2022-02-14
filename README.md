@@ -26,7 +26,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Switcher theme apenas um apaga e acende a luz
 ## Layout
 
-Você pode visualizar o projeto através [desse link](https://luskardev.github.io/Login_Form/).
+Você pode visualizar o projeto através [desse link](https://luskardev.github.io/SwitcherTheme/).
 
 
 Feito com Carinho by Lucas Oliveira :wave:
